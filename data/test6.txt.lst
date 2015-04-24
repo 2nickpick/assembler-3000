@@ -1,0 +1,21 @@
+******************************************************
+SIC/XE Assembler 3000
+Written by Nicholas Pickering
+Generated: Thu Apr 23 21:45:21 2015
+******************************************************
+ASSEMBLER REPORT
+----------------
+    	Location	Object Code		Source Code
+    	--------	-----------		-----------
+001		00100		        		ADDRES    START    100
+002		00100		69100116		NOW      +LDB     #BEG
+003		00104		        		XXX       BASE     BEG
+004		00104		03200C  		YYY       LDA      BE
+005		00107		        		          RESW     4
+006		00113		000002  		BE        WORD     2
+007		00116		        		BEG       RESW     1
+008		00119		        		JUNK      RESW     2200
+009		01AE1		        		THERE     RESW     1
+010		01AE4		034003  		ZZZ       LDA      JUNK
+011		01AE7		0F2FF7  		MMM       STA      THERE
+012		01AEA		        		          END      NOW

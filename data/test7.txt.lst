@@ -1,0 +1,12 @@
+******************************************************
+SIC/XE Assembler 3000
+Written by Nicholas Pickering
+Generated: Thu Apr 23 21:45:24 2015
+******************************************************
+ASSEMBLER REPORT
+----------------
+    	Location	Object Code		Source Code
+    	--------	-----------		-----------
+001		00100		        		ADDRES    START    100
+002		00100		032000  		          LDA      TS1
+003		00103		        		TS1       END

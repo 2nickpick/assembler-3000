@@ -1,0 +1,13 @@
+          START    90
+          ADDR     S,T
+          CLEAR    T
+          COMPR    S,T
+          DIVR     S,T
+          MULR     S,T
+          RMO      S,T
+          SHIFTL   S,3
+          SHIFTR   S,3
+          SUBR     S,T
+          TIXR     S
+          RSUB
+          END

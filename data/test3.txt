@@ -1,0 +1,24 @@
+          START    90
+          LDA      LBL,X              omit
+          LDA     @PTR
+LABEL     MUL     =X'999999'
+          BASE     STR
+          LTORG
+. TEST TEST TEST TEST
+          LDA     #23
+          ADDR     S,T
+STR       LDA      LBL
+         +LDA      LBL
+STR2      RSUB
+          LDA     =X'54'
+          LDA     =C'A'
+          LDA     =C''
+          LTORG
+          MUL     =C'TWO'
+          MUL     =C'THRE'
+LBL       WORD     8
+PTR       WORD     106
+          BYTE     C'3D'
+          BYTE     X'3D'
+          RESW     3
+          END

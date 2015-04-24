@@ -1,0 +1,26 @@
+EXAMPLE   START    500
+          STL      RET
+         +J        DN
+MMP       WORD     8
+          RESW     3
+RET       RESW     1
+DN        LDA      MMP
+          SUB      SEC
+         +STA      ANS
+          LDX      ONE
+          ADDR     X,T
+          MUL     #2
+          STA      MMP,X
+          BASE     ONE
+.         LDB      ONE
+          MUL     #3
+          STA      MAX
+          J        RET
+FIRST     WORD     4
+SEC       WORD     7
+NUM       RESW     1
+ANS       RESW     2
+ONE       WORD     -9
+BIG       RESB     3000        .NOTE: byte, not WORD
+MAX       RESW     1
+          END      EXAMPLE

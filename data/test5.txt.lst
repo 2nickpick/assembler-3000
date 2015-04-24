@@ -1,0 +1,22 @@
+******************************************************
+SIC/XE Assembler 3000
+Written by Nicholas Pickering
+Generated: Thu Apr 23 21:45:17 2015
+******************************************************
+ASSEMBLER REPORT
+----------------
+    	Location	Object Code		Source Code
+    	--------	-----------		-----------
+001		00090		        		          START    90
+002		00090		9045    		          ADDR     S,T
+003		00092		B450    		          CLEAR    T
+004		00094		A045    		          COMPR    S,T
+005		00096		9C45    		          DIVR     S,T
+006		00098		9845    		          MULR     S,T
+007		0009A		AC45    		          RMO      S,T
+008		0009C		A442    		          SHIFTL   S,3
+009		0009E		A842    		          SHIFTR   S,3
+010		000A0		9445    		          SUBR     S,T
+011		000A2		B840    		          TIXR     S
+012		000A4		4F0000  		          RSUB
+013		000A7		        		          END

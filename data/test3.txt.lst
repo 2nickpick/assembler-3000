@@ -1,0 +1,39 @@
+******************************************************
+SIC/XE Assembler 3000
+Written by Nicholas Pickering
+Generated: Thu Apr 23 22:42:19 2015
+******************************************************
+ASSEMBLER REPORT
+----------------
+    	Location	Object Code		Source Code
+    	--------	-----------		-----------
+001		00090		        		          START    90
+002		00090		03A029  		          LDA      LBL,X              omit
+003		00093		022029  		          LDA     @PTR
+004		00096		232000  		LABEL     MUL     =X'999999'
+005		00099		        		          BASE     STR
+006		00099		        		          LTORG
++1+		00099		999999  		=X'999999'	  BYTE	  X'999999'	.literal organization
+007		      		        		. TEST TEST TEST TEST
+008		0009C		010017  		          LDA     #23
+009		0009F		9045    		          ADDR     S,T
+010		000A1		032018  		STR       LDA      LBL
+011		000A4		031000BC		         +LDA      LBL
+012		000A8		4F0000  		STR2      RSUB
+013		000AB		032007  		          LDA     =X'54'
+014		000AE		032003  		          LDA     =C'A'
+015		000B1		032000  		          LDA     =C''
+016		000B4		        		          LTORG
++1+		000B4		        		=C''	  BYTE	  C''		.literal organization
++2+		000B4		41      		=C'A'	  BYTE	  C'A'		.literal organization
++3+		000B5		54      		=X'54'	  BYTE	  X'54'	.literal organization
+017		000B6		232019  		          MUL     =C'TWO'
+018		000B9		232012  		          MUL     =C'THRE'
+019		000BC		000008  		LBL       WORD     8
+020		000BF		00006A  		PTR       WORD     106
+021		000C2		3344    		          BYTE     C'3D'
+022		000C4		3D      		          BYTE     X'3D'
+023		000C5		        		          RESW     3
+024		000CE		        		          END
++1+		000CE		54485245		=C'THRE'	  BYTE	  C'THRE'		.literal organization
++2+		000D2		54574F  		=C'TWO'	  BYTE	  C'TWO'		.literal organization

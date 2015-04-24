@@ -1,0 +1,35 @@
+******************************************************
+SIC/XE Assembler 3000
+Written by Nicholas Pickering
+Generated: Thu Apr 23 21:45:13 2015
+******************************************************
+ASSEMBLER REPORT
+----------------
+    	Location	Object Code		Source Code
+    	--------	-----------		-----------
+001		00500		        		EXAMPLE   START    500
+002		00500		172010  		          STL      RET
+003		00503		3F100516		         +J        DN
+004		00507		000008  		MMP       WORD     8
+005		0050A		        		          RESW     3
+006		00513		        		RET       RESW     1
+007		00516		032FEE  		DN        LDA      MMP
+008		00519		1F201B  		          SUB      SEC
+009		0051C		0F10053D		         +STA      ANS
+010		00520		072020  		          LDX      ONE
+011		00523		9015    		          ADDR     X,T
+012		00525		210002  		          MUL     #2
+013		00528		0FAFDC  		          STA      MMP,X
+014		0052B		        		          BASE     ONE
+015		      		        		.         LDB      ONE
+016		0052B		210003  		          MUL     #3
+017		0052E		0F4BBB  		          STA      MAX
+018		00531		3F2FDF  		          J        RET
+019		00534		000004  		FIRST     WORD     4
+020		00537		000007  		SEC       WORD     7
+021		0053A		        		NUM       RESW     1
+022		0053D		        		ANS       RESW     2
+023		00543		FFFFF7  		ONE       WORD     -9
+024		00546		        		BIG       RESB     3000        .NOTE: byte, not WORD
+025		010FE		        		MAX       RESW     1
+026		01101		        		          END      EXAMPLE

@@ -1,0 +1,3 @@
+.idea/*
+*pycache*
+lib/__pycache__/*
