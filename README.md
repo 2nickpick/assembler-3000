@@ -1,9 +1,6 @@
 Nicholas Pickering
-System Software COP3404
+
 Project 4 - SIC/XE Assembler 3000
-Professor Eggen
-Date Due: 4/23/2015
-Date Submitted 4/23/2015
 
 # Introduction
 Pass 2 of the Assembler - Generate object code for a SIC/XE program
